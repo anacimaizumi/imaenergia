@@ -22,11 +22,22 @@ nav {
 .logo{
     width: 110px;
     padding: 10 0 0 20;
+}
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 20px;
 }
 
 .flag {
     width: 20px;
+}
+
+.flag2 {
+    width: 24px;
 }
 
 .teste {
@@ -39,7 +50,7 @@ nav {
 
 .teste2{
     float: right;
-    padding-top: 32px;
+    padding-top: 29px;
     margin-right: 10;
 }
 
@@ -86,11 +97,12 @@ a.active,a:hover{
 }
 
 .container h1 {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 800;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
     position: relative;
     text-align: right;
-    font-size: 5vw;
+    font-size: 4.5vw;
     color: white;
     text-shadow: 4px 4px #213855;
 }
@@ -125,13 +137,13 @@ h1 {
     background-color: white;
 }
 
-.coluna12 p {
+.nossaempresa p {
     font-family: 'Karla', sans-serif;
     font-size: 1.3em;
     font-weight: 100;
     color: black;
-    padding: 40 90 40 90;
-    text-align: center;
+    padding: 50 90 50 90;
+    text-align: left;
     line-height: 1.5;
 }
 
@@ -139,7 +151,7 @@ h1 {
     font-weight: 400;
 }
 
-.coluna3 {
+.solucao {
     padding: 20px;
     width: 23%;
     text-align: center;
@@ -174,7 +186,9 @@ h1 {
 
 .coluna12 h2{
     color: #213855;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-transform: uppercase;
 }
 
 .marginblocs {
@@ -202,14 +216,116 @@ h1 {
     height: 150px;
 }
 
-footer {
+footer, .coluna2, .coluna8, .coluna4 {
     background-color: #213855;
     height: 50%;
 }
 
+.coluna4 p{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+
+/*footer*/
+
 footer p {
     color: #428B82;
     font-weight: bold;
+}
+
+.streamings {
+    /*display: flex;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*margin-left: -1rem;
+    margin-right: -1rem;*/
+}
+
+.streamings i {
+    font-size: 1.8em;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10;
+    margin-right: 10;
+    color: #428B82;
+}
+
+.streamings i:hover, .streamings i:focus {
+    transform: scale(1.1);
+}
+
+.streamings .strm{
+    display: block;
+    text-indent: -1000px;
+    overflow: hidden;
+    margin: 0.5rem 0.75rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.streamings .strm:focus,
+.streamings .strm:hover {
+    transform: scale(1.1);
+}
+
+.streamings li{
+    color: white;
+    
+}
+
+h3 {
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+.sempadding {
+    padding-top: 20;
+}
+
+.margem {
+    padding-top:20%;
+}
+
+.margem ul {
+    font-family: 'Karla', sans-serif;
+    
+}
+
+.margem a {
+    color: #428B82;
+    line-height: 2;
+}
+
+.logo2{
+    width: 50%;
+}
+
+.creditos {
+    padding: 20;
+    background-color: #4C5B6E;
+}
+
+.creditos p {
+    text-align: right;
+
+}
+
+.alinhardireita ul {
+    text-align: right;
+}
+
+.margemdireita {
+    padding-right: 18%;
 }
 
 /*
