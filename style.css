@@ -77,6 +77,8 @@ a.active,a:hover{
     transition: .5s width ease-in-out;
 }
 
+
+
 .checkbtn {
     font-size: 26px;
     color: black;
@@ -118,6 +120,12 @@ h2{
 .container {
     position: relative;
 }*/
+
+h4 {
+    position: relative;
+    top:22%;
+    z-index: -1;
+}
 
 h1 { 
     position: absolute; 
@@ -187,13 +195,17 @@ h1 {
 .coluna12 h2{
     color: #213855;
     padding-bottom: 50px;
-    padding-top: 20px;
+    padding-top: 50px;
     text-transform: uppercase;
 }
 
 .marginblocs {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.envoltadassolucoes {
+    padding: 50px;
 }
 
 .clearfix:after {
@@ -212,13 +224,14 @@ h1 {
     height: 190px;
 }
 
-.linha3{
+.linha2{
     height: 150px;
+    margin-bottom: 100px;
 }
 
 footer, .coluna2, .coluna8, .coluna4 {
     background-color: #213855;
-    height: 50%;
+    height: 55%;
 }
 
 .coluna4 p{
@@ -311,7 +324,7 @@ h3 {
 }
 
 .creditos {
-    padding: 20;
+    padding: 20 30 20 0;
     background-color: #4C5B6E;
 }
 
