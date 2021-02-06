@@ -169,11 +169,11 @@ h1 {
     background-color: white;
 }
 
-.coluna3:hover {
+.solucao:hover {
     border: solid 1px #428B82;
 }
 
-.coluna3 p:hover {
+.solucao p:hover {
     color: #428B82;
     cursor: pointer;
 }
@@ -185,6 +185,7 @@ h1 {
 .coluna3 p{
     line-height: 1.3;
     padding: 5px;
+    font-size: 1.3vw;
 }
 
 .coluna12{
@@ -221,11 +222,11 @@ h1 {
 }
 
 .linha1 {
-    height: 190px;
+    height: 30%;
 }
 
 .linha2{
-    height: 150px;
+    height: 30%;
     margin-bottom: 100px;
 }
 

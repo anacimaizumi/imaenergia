@@ -1,0 +1,90 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>IMA Energia | Soluções para máquinas elétricas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="coluna.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="solucao.css">
+    <script src="https://kit.fontawesome.com/c8698c2d89.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="inicio">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="englishversion.html"><img class="flag teste" src="united-kingdom.png" alt="uk flag"></a>
+        <a href="#inicio"><img class="flag2 teste2" src="brasil.png" alt="br flag"></a>
+        <a href="index.html"><img class="logo" src="logo.png" alt="logo"></a>
+        <ul>
+            <li><a href="index.html">INÍCIO</a></li>
+            <li><a href="#empresa">NOSSA EMPRESA</a></li>
+            <li><a class="active" href="#solucoes">SOLUÇÕES</a></li>
+            <li><a href="#contato">CONTATO</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>Soluções</p>
+
+        <button onclick="esconde('myDIV')"> + Elaboração de especificação técnica de máquinas novas e de
+            máquinas em reabilitação, reforma ou repotenciação</button>
+        <div id="myDIV" class="esconde">
+            <ul>
+                <li>Elaboração de especificação técnica com os requisitos técnicos mínimos para uma solução de máquina elétrica da mais alta qualidade</li>
+                <li>Elaboração de especificação técnica da máquina completa ou de seus componentes que precisem de reabilitação, reforma ou repotenciação</li>
+                <li>Elaboração de especificação técnica de componentes sobressalentes para reposição no empreendimento elétrico</li>
+            </ul>
+        </div>
+        
+        <button onclick="esconde('myDIV2')">Projeto eletromagnético e de isolamento de máquinas novas e de máquinas em reabilitação, reforma ou repotenciação</button>
+        <div id="myDIV2" class="esconde">
+            <ul>
+                <li>Cálculo eletromagnético da máquina elétrica tomando como base
+                    os requisitos do cliente, das normas internacionais, do sistema
+                    elétrico de potência e os dados da turbina Tendo como saída, o
+                    estudo base da máquina elétrica com todas as características já
+                    definidas potência, tensão, rendimento, elevações de temperatura,
+                    reatâncias, dimensões do estator e do rotor, pesos, entre outros</li>
+                <li>Geração da folha de dados da máquina elétrica, das curvas
+                    características, do diagrama de ligação, entre outros documentos
+                    pertinentes ao projeto da máquina elétrica</li>
+                <li>Engenharia reversa de máquinas em reabilitação, reforma ou
+                    repotenciação a partir de dados da máquina existente como, por
+                    exemplo, desenhos originais e relatórios de ensaios de
+                    Comissionamento</li>
+                <li>Dimensionamento do sistema de isolação do estator e do rotor,
+                    com a utilização do estado da arte de materiais e de processos de
+                    fabricação dos sistemas isolantes</li>
+            </ul>
+        </div>
+
+        <script>
+
+        function esconde(meuid) {
+            var meudiv = document.getElementById(meuid);
+            meudiv.classList.toggle("mystyle");
+        }
+
+        function apareceDivDaAncora () {
+            //deixar aberto o texto da solução selecionada//
+            var meuid = window.location.hash; //pegando um valor da ancora(#) da url e salvando na variavel meuid//
+            var meuidsemhash = meuid.substring(1); //como pegar uma parte do texto ou excluir caracteres, ex: #//
+            var meudiv = document.getElementById(meuidsemhash); //pegando um elemento pelo id//
+            meudiv.classList.toggle("mystyle");  //pega uma classe do meudiv e alterna entre aparecer e sumir//
+        }
+
+        apareceDivDaAncora ();
+        </script>
+
+        
+    </section>
+</body>
+</html>
