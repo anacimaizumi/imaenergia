@@ -1,13 +1,76 @@
 .mystyle {
     width: 100%;
-    padding: 25px;
-    background-color: coral;
-    color: white;
-    font-size: 25px;
+    /*padding: 25px;*/
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    font-size: 1.5vw;
     box-sizing: border-box;
     display: block !important;
+    font-family: 'Karla', sans-serif;
+    background-color: none;
 }
 
 .esconde {
     display: none;
+}
+
+.botaosolucao {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    background-color: white;
+    border: none;
+    color: black;
+    display:flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+section h2{
+    text-align: left;
+    color: #213855;
+    padding-bottom: 20px;
+}
+
+section p {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.margemsolucoes {
+    padding: 5%;
+}
+
+.margementresolucoes {
+    padding-bottom: 30px;
+}
+
+img {
+    width: 40px;
+}
+
+button {
+    width: 100%;
+    cursor: pointer;
+}
+
+.coluna8 ul li {
+    list-style-type: circle;
+    margin-bottom: 10px;
+}
+
+.imagem img {
+    width: 70%;
+    padding: 10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.fundosolucoes{
+    background-color: white;
 }

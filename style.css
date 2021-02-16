@@ -110,7 +110,8 @@ a.active,a:hover{
 }
 
 h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    /*font-family: 'Rubik', sans-serif;*/
     font-weight: 700;
     font-size: 3vw;
     text-align: center;
@@ -230,7 +231,7 @@ h1 {
     margin-bottom: 100px;
 }
 
-footer, .coluna2, .coluna8, .coluna4 {
+footer, .coluna2, .fundoazul {
     background-color: #213855;
     height: 55%;
 }
