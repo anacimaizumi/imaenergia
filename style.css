@@ -168,15 +168,21 @@ h1 {
     margin: 0 10 20 10;
     border-radius: 6px;
     background-color: white;
+
 }
 
 .solucao:hover {
-    border: solid 1px #428B82;
+    border: solid 1px black;
+    background-color: #A7D9D3;
 }
 
 .solucao p:hover {
-    color: #428B82;
+    color: black;
     cursor: pointer;
+}
+
+.solucao p {
+    color: black;
 }
 
 .coluna3 img{

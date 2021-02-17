@@ -12,7 +12,6 @@
     box-sizing: border-box;
     display: block !important;
     font-family: 'Karla', sans-serif;
-    background-color: none;
 }
 
 .esconde {
@@ -56,6 +55,11 @@ img {
 button {
     width: 100%;
     cursor: pointer;
+    border: none;
+}
+
+button.active {
+    border: none;
 }
 
 .coluna8 ul li {
