@@ -77,7 +77,9 @@ a.active,a:hover{
     transition: .5s width ease-in-out;
 }
 
-
+.semlinha:hover {
+    border-bottom: none;
+}
 
 .checkbtn {
     font-size: 26px;
