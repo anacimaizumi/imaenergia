@@ -80,3 +80,7 @@ button {
 .shadow {
     box-shadow:  0 -6px 10px -8px black;
 }
+
+.menor {
+    width:50%;
+}
