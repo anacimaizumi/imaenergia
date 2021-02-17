@@ -22,11 +22,12 @@
     font-family: 'Karla', sans-serif;
     font-weight: 200;
     background-color: white;
-    border: none;
+    border-bottom: solid 1px black;
     color: black;
     display:flex;
     /*justify-content: center;*/
     align-items: center;
+    padding: 10px;
 }
 
 section h2{
@@ -56,10 +57,7 @@ button {
     width: 100%;
     cursor: pointer;
     border: none;
-}
-
-button.active {
-    border: none;
+    outline: none;
 }
 
 .coluna8 ul li {
