@@ -30,7 +30,7 @@
     <section class="margemsolucoes">
         <h2>SOLUÇÕES</h2>
         <div class="margementresolucoes">
-            <button id="myDIV1" class="botaosolucao" onclick="esconde('myDIV1')"> 
+            <button id="myDIV1" class="botaosolucao" onclick="esconde('DIV1')"> 
                 <img src="setting.png" alt="projeto">
                 <p> Elaboração de especificação técnica de máquinas novas </br>e de máquinas em reabilitação, reforma ou repotenciação</p>
                 <!-- <i class="fas fa-angle-down saibamais"></i> -->
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button id="myDIV2" class="botaosolucao" onclick="esconde('myDIV2')">
+            <button id="myDIV2" class="botaosolucao" onclick="esconde('DIV2')">
                 <img src="solucao1.png" alt="projeto">
                 <p>Projeto eletromagnético e de isolamento de máquinas novas </br>e de máquinas em reabilitação, reforma ou repotenciação</p>
             </button>
@@ -83,7 +83,7 @@
             </div>                      
         </div>
         <div class="margementresolucoes">
-            <button id="myDIV3"class="botaosolucao" onclick="esconde('myDIV3')">
+            <button id="myDIV3"class="botaosolucao" onclick="esconde('DIV3')">
                 <img src="information.png" alt="projeto">
                 <p>Elaboração de manuais de montagem, O&M e comissionamento</p>
             </button>
@@ -102,7 +102,7 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button id="myDIV4" class="botaosolucao" onclick="esconde('myDIV4')">
+            <button id="myDIV4" class="botaosolucao" onclick="esconde('DIV4')">
                 <img src="briefing.png" alt="projeto">
                 <p>Análise de documentos do projeto da máquina elétrica</p>
             </button>
@@ -122,7 +122,7 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button id="myDIV5" class="botaosolucao" onclick="esconde('myDIV5')">
+            <button id="myDIV5" class="botaosolucao" onclick="esconde('DIV5')">
                 <img src="failure.png" alt="projeto">
                 <p>Análise de causa raiz de falhas</p>
             </button>
@@ -143,7 +143,7 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button id="myDIV6" class="botaosolucao" onclick="esconde('myDIV6')">
+            <button id="myDIV6" class="botaosolucao" onclick="esconde('DIV6')">
                 <img src="search.png" alt="projeto">
                 <p>Inspeções e Ensaios Elétricos de Fábrica e de Campo</p>
             </button>
@@ -171,7 +171,7 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button id="myDIV7" class="botaosolucao" onclick="esconde('myDIV7')">
+            <button id="myDIV7" class="botaosolucao" onclick="esconde('DIV7')">
                 <img src="bulb.png" alt="projeto">
                 <p>Desenvolvimento de novos materiais </br>e Qualificação de processos de Fabricação</p>
             </button>
@@ -201,7 +201,7 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button id="myDIV8" class="botaosolucao" onclick="esconde('myDIV8')">
+            <button id="myDIV8" class="botaosolucao" onclick="esconde('DIV8')">
                 <img src="education.png" alt="projeto">
                 <p>Treinamentos técnicos</p>
             </button>
@@ -231,6 +231,7 @@
             //deixar aberto o texto da solução selecionada//
             var meuid = window.location.hash; //pegando um valor da ancora(#) da url e salvando na variavel meuid//
             var meuidsemhash = meuid.substring(3); //como pegar uma parte do texto ou excluir caracteres, ex: #//
+            //var meuid2 = "box"+meuid;//
             var meudiv = document.getElementById(meuidsemhash); //pegando um elemento pelo id//
             meudiv.classList.toggle("mystyle");  //pega uma classe do meudiv e alterna entre aparecer e sumir//
         }
