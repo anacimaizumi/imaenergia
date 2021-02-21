@@ -74,7 +74,6 @@ nav ul li a {
 
 a.active,a:hover{
     border-bottom: #428B82 solid 1px;
-    transition: .5s width ease-in-out;
 }
 
 .semlinha:hover {
@@ -170,12 +169,15 @@ h1 {
     margin: 0 10 20 10;
     border-radius: 6px;
     background-color: white;
+    transition: all 0.3s ease-in-out
 
 }
 
 .solucao:hover {
     border: solid 1px black;
-    background-color: #A7D9D3;
+    /*background-color: #A7D9D3;*/
+    background-color: #dfdfdf;
+    transition: all 0.3s ease-in-out;
 }
 
 .solucao p:hover {

@@ -30,12 +30,12 @@
     <section class="margemsolucoes">
         <h2>SOLUÇÕES</h2>
         <div class="margementresolucoes">
-            <button class="botaosolucao" onclick="esconde('myDIV1')"> 
+            <button id="myDIV1" class="botaosolucao" onclick="esconde('myDIV1')"> 
                 <img src="setting.png" alt="projeto">
                 <p> Elaboração de especificação técnica de máquinas novas </br>e de máquinas em reabilitação, reforma ou repotenciação</p>
                 <!-- <i class="fas fa-angle-down saibamais"></i> -->
             </button>
-            <div id="myDIV1" class="esconde clearfix">
+            <div id="DIV1" class="esconde clearfix">
                 <div class="coluna8 fundosolucoes"> 
                 <ul>
                     <li>Elaboração de especificação técnica com os requisitos técnicos mínimos para uma solução de máquina elétrica da mais alta qualidade</li>
@@ -49,12 +49,12 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button class="botaosolucao" onclick="esconde('myDIV2')">
+            <button id="myDIV2" class="botaosolucao" onclick="esconde('myDIV2')">
                 <img src="solucao1.png" alt="projeto">
                 <p>Projeto eletromagnético e de isolamento de máquinas novas </br>e de máquinas em reabilitação, reforma ou repotenciação</p>
             </button>
             <div class="fundo">
-                <div id="myDIV2" class="esconde clearfix">
+                <div id="DIV2" class="esconde clearfix">
                     <div class="coluna8 fundosolucoes"> 
                     <ul>
                         <li>Cálculo eletromagnético da máquina elétrica tomando como base
@@ -83,11 +83,11 @@
             </div>                      
         </div>
         <div class="margementresolucoes">
-            <button class="botaosolucao" onclick="esconde('myDIV3')">
+            <button id="myDIV3"class="botaosolucao" onclick="esconde('myDIV3')">
                 <img src="information.png" alt="projeto">
                 <p>Elaboração de manuais de montagem, O&M e comissionamento</p>
             </button>
-            <div id="myDIV3" class="esconde clearfix">
+            <div id="DIV3" class="esconde clearfix">
                 <div class="coluna8 fundosolucoes"> 
                 <ul>
                     <li>Elaboração de manuais de montagem, manuais de
@@ -102,11 +102,11 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button class="botaosolucao" onclick="esconde('myDIV4')">
+            <button id="myDIV4" class="botaosolucao" onclick="esconde('myDIV4')">
                 <img src="briefing.png" alt="projeto">
                 <p>Análise de documentos do projeto da máquina elétrica</p>
             </button>
-            <div id="myDIV4" class="esconde clearfix">
+            <div id="DIV4" class="esconde clearfix">
                 <div class="coluna8 fundosolucoes"> 
                 <ul>
                     <li>Análise e conferência de desenhos, listas de materiais, manuais técnicos, instruções de fabricação e outros
@@ -122,11 +122,11 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button class="botaosolucao" onclick="esconde('myDIV5')">
+            <button id="myDIV5" class="botaosolucao" onclick="esconde('myDIV5')">
                 <img src="failure.png" alt="projeto">
                 <p>Análise de causa raiz de falhas</p>
             </button>
-            <div id="myDIV5" class="esconde clearfix">
+            <div id="DIV5" class="esconde clearfix">
                 <div class="coluna8 fundosolucoes"> 
                 <ul>
                     <li>Verificação da causa raiz da falha de uma máquina elétrica, seja por evento elétrico (falta para terra, curto
@@ -143,11 +143,11 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button class="botaosolucao" onclick="esconde('myDIV6')">
+            <button id="myDIV6" class="botaosolucao" onclick="esconde('myDIV6')">
                 <img src="search.png" alt="projeto">
                 <p>Inspeções e Ensaios Elétricos de Fábrica e de Campo</p>
             </button>
-            <div id="myDIV6" class="esconde clearfix">
+            <div id="DIV6" class="esconde clearfix">
                 <div class="coluna8 fundosolucoes"> 
                 <ul>
                     <li>Realização e/ou acompanhamento de inspeções em Fábrica ou em Campo para
@@ -171,11 +171,11 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button class="botaosolucao" onclick="esconde('myDIV7')">
+            <button id="myDIV7" class="botaosolucao" onclick="esconde('myDIV7')">
                 <img src="bulb.png" alt="projeto">
                 <p>Desenvolvimento de novos materiais </br>e Qualificação de processos de Fabricação</p>
             </button>
-            <div id="myDIV7" class="esconde clearfix">
+            <div id="DIV7" class="esconde clearfix">
                 <div class="coluna8 fundosolucoes"> 
                 <ul>
                     <li>Indicação do estado da arte dos materiais e dos processos de
@@ -201,11 +201,11 @@
             </div>
         </div>
         <div class="margementresolucoes">
-            <button class="botaosolucao" onclick="esconde('myDIV8')">
+            <button id="myDIV8" class="botaosolucao" onclick="esconde('myDIV8')">
                 <img src="education.png" alt="projeto">
                 <p>Treinamentos técnicos</p>
             </button>
-            <div id="myDIV8" class="esconde clearfix">
+            <div id="DIV8" class="esconde clearfix">
                 <div class="coluna8 fundosolucoes"> 
                 <ul>
                     <li>Aspectos elétricos, mecânicos e de isolação de
@@ -230,7 +230,7 @@
         function apareceDivDaAncora () {
             //deixar aberto o texto da solução selecionada//
             var meuid = window.location.hash; //pegando um valor da ancora(#) da url e salvando na variavel meuid//
-            var meuidsemhash = meuid.substring(1); //como pegar uma parte do texto ou excluir caracteres, ex: #//
+            var meuidsemhash = meuid.substring(3); //como pegar uma parte do texto ou excluir caracteres, ex: #//
             var meudiv = document.getElementById(meuidsemhash); //pegando um elemento pelo id//
             meudiv.classList.toggle("mystyle");  //pega uma classe do meudiv e alterna entre aparecer e sumir//
         }
