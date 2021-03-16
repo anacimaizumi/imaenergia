@@ -77,6 +77,11 @@ button {
     background-color: white;
 }
 
+.fundosolucoes ul li {
+    text-align: justify;
+    line-height: 1.4;
+}
+
 .shadow {
     box-shadow:  0 -6px 10px -8px black;
 }
